@@ -1,0 +1,51 @@
+@import url(reset.css);
+
+body {
+font: 11.5px Arial, Verdana, Tahoma,sans-serif;
+color:#5d5d5d;
+background:#f4f4f4;
+}
+
+a{
+color:black;
+text-decoration:none;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.active, a:hover {
+color:grey;
+}
+
+#top-line {
+background: #090909;
+height: 16px;
+}
+
+#wrapper {
+width: 960px;
+margin: 0 auto;
+}
+
+
+#header {
+padding: 20px o 16px 0;
+border-bottom:1px solid #c0c0c0;
+overflow:hidden;
+}
+
+#logo {
+width: 128px;
+height: 91px;
+float:left;
+}
+
+#menu {
+float:right;
+margin-top:31px;
+}
+
+#menu ul li {
+float:left;
+margin-left:63px;
+}
